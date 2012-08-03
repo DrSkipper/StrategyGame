@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82262BF15CB01F700DCFBB1 /* SGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82262BE15CB01F700DCFBB1 /* SGViewController.xib */; };
+		F82262C315CB0E7100DCFBB1 /* SGGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F82262C215CB0E7100DCFBB1 /* SGGridCell.m */; };
+		F82262C515CB0EA400DCFBB1 /* SGGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82262C415CB0EA400DCFBB1 /* SGGridCell.xib */; };
+		F82262C715CB1A2200DCFBB1 /* GREEiconBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = F82262C615CB1A2200DCFBB1 /* GREEiconBlank.png */; };
+		F82262CB15CB2A6700DCFBB1 /* GREEicon64.png in Resources */ = {isa = PBXBuildFile; fileRef = F82262C815CB2A6700DCFBB1 /* GREEicon64.png */; };
+		F82262CC15CB2A6700DCFBB1 /* GREEiconBlank64.png in Resources */ = {isa = PBXBuildFile; fileRef = F82262C915CB2A6700DCFBB1 /* GREEiconBlank64.png */; };
+		F82262CD15CB2A6700DCFBB1 /* GREEiconPurple64.png in Resources */ = {isa = PBXBuildFile; fileRef = F82262CA15CB2A6700DCFBB1 /* GREEiconPurple64.png */; };
+		F83975FB15CAEE7F00A61648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83975FA15CAEE7F00A61648 /* UIKit.framework */; };
+		F83975FD15CAEE7F00A61648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83975FC15CAEE7F00A61648 /* Foundation.framework */; };
+		F83975FF15CAEE7F00A61648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83975FE15CAEE7F00A61648 /* CoreGraphics.framework */; };
+		F839760515CAEE7F00A61648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F839760315CAEE7F00A61648 /* InfoPlist.strings */; };
+		F839760715CAEE7F00A61648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F839760615CAEE7F00A61648 /* main.m */; };
+		F839760B15CAEE7F00A61648 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F839760A15CAEE7F00A61648 /* SGAppDelegate.m */; };
+		F839760E15CAEE7F00A61648 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F839760C15CAEE7F00A61648 /* MainStoryboard_iPhone.storyboard */; };
+		F839761115CAEE7F00A61648 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F839760F15CAEE7F00A61648 /* MainStoryboard_iPad.storyboard */; };
+		F839761415CAEE7F00A61648 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F839761315CAEE7F00A61648 /* SGViewController.m */; };
+		F839761C15CAEE7F00A61648 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F839761B15CAEE7F00A61648 /* SenTestingKit.framework */; };
+		F839761D15CAEE7F00A61648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83975FA15CAEE7F00A61648 /* UIKit.framework */; };
+		F839761E15CAEE7F00A61648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83975FC15CAEE7F00A61648 /* Foundation.framework */; };
+		F839762615CAEE7F00A61648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F839762415CAEE7F00A61648 /* InfoPlist.strings */; };
+		F839762915CAEE7F00A61648 /* StrategyGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F839762815CAEE7F00A61648 /* StrategyGameTests.m */; };
+		F839763515CAF3ED00A61648 /* GREEicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F839763315CAF3ED00A61648 /* GREEicon.png */; };
+		F839763615CAF3ED00A61648 /* GREEiconPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = F839763415CAF3ED00A61648 /* GREEiconPurple.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F839761F15CAEE7F00A61648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83975ED15CAEE7F00A61648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83975F515CAEE7F00A61648;
+			remoteInfo = StrategyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F82262BE15CB01F700DCFBB1 /* SGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SGViewController.xib; path = ../SGViewController.xib; sourceTree = "<group>"; };
+		F82262C115CB0E7100DCFBB1 /* SGGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGridCell.h; sourceTree = "<group>"; };
+		F82262C215CB0E7100DCFBB1 /* SGGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGridCell.m; sourceTree = "<group>"; };
+		F82262C415CB0EA400DCFBB1 /* SGGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGGridCell.xib; sourceTree = "<group>"; };
+		F82262C615CB1A2200DCFBB1 /* GREEiconBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEiconBlank.png; sourceTree = "<group>"; };
+		F82262C815CB2A6700DCFBB1 /* GREEicon64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEicon64.png; sourceTree = "<group>"; };
+		F82262C915CB2A6700DCFBB1 /* GREEiconBlank64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEiconBlank64.png; sourceTree = "<group>"; };
+		F82262CA15CB2A6700DCFBB1 /* GREEiconPurple64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEiconPurple64.png; sourceTree = "<group>"; };
+		F83975F615CAEE7F00A61648 /* StrategyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrategyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83975FA15CAEE7F00A61648 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F83975FC15CAEE7F00A61648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F83975FE15CAEE7F00A61648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F839760215CAEE7F00A61648 /* StrategyGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrategyGame-Info.plist"; sourceTree = "<group>"; };
+		F839760415CAEE7F00A61648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F839760615CAEE7F00A61648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F839760815CAEE7F00A61648 /* StrategyGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrategyGame-Prefix.pch"; sourceTree = "<group>"; };
+		F839760915CAEE7F00A61648 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		F839760A15CAEE7F00A61648 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		F839760D15CAEE7F00A61648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F839761015CAEE7F00A61648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F839761215CAEE7F00A61648 /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		F839761315CAEE7F00A61648 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		F839761A15CAEE7F00A61648 /* StrategyGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F839761B15CAEE7F00A61648 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F839762315CAEE7F00A61648 /* StrategyGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrategyGameTests-Info.plist"; sourceTree = "<group>"; };
+		F839762515CAEE7F00A61648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F839762715CAEE7F00A61648 /* StrategyGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyGameTests.h; sourceTree = "<group>"; };
+		F839762815CAEE7F00A61648 /* StrategyGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyGameTests.m; sourceTree = "<group>"; };
+		F839763315CAF3ED00A61648 /* GREEicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEicon.png; sourceTree = "<group>"; };
+		F839763415CAF3ED00A61648 /* GREEiconPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEiconPurple.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83975F315CAEE7F00A61648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83975FB15CAEE7F00A61648 /* UIKit.framework in Frameworks */,
+				F83975FD15CAEE7F00A61648 /* Foundation.framework in Frameworks */,
+				F83975FF15CAEE7F00A61648 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839761615CAEE7F00A61648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839761C15CAEE7F00A61648 /* SenTestingKit.framework in Frameworks */,
+				F839761D15CAEE7F00A61648 /* UIKit.framework in Frameworks */,
+				F839761E15CAEE7F00A61648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83975EB15CAEE7F00A61648 = {
+			isa = PBXGroup;
+			children = (
+				F839760015CAEE7F00A61648 /* StrategyGame */,
+				F839762115CAEE7F00A61648 /* StrategyGameTests */,
+				F83975F915CAEE7F00A61648 /* Frameworks */,
+				F83975F715CAEE7F00A61648 /* Products */,
+				F839763215CAF3C100A61648 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		F83975F715CAEE7F00A61648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83975F615CAEE7F00A61648 /* StrategyGame.app */,
+				F839761A15CAEE7F00A61648 /* StrategyGameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83975F915CAEE7F00A61648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F83975FA15CAEE7F00A61648 /* UIKit.framework */,
+				F83975FC15CAEE7F00A61648 /* Foundation.framework */,
+				F83975FE15CAEE7F00A61648 /* CoreGraphics.framework */,
+				F839761B15CAEE7F00A61648 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F839760015CAEE7F00A61648 /* StrategyGame */ = {
+			isa = PBXGroup;
+			children = (
+				F839760915CAEE7F00A61648 /* SGAppDelegate.h */,
+				F839760A15CAEE7F00A61648 /* SGAppDelegate.m */,
+				F839760C15CAEE7F00A61648 /* MainStoryboard_iPhone.storyboard */,
+				F839760F15CAEE7F00A61648 /* MainStoryboard_iPad.storyboard */,
+				F839761215CAEE7F00A61648 /* SGViewController.h */,
+				F839761315CAEE7F00A61648 /* SGViewController.m */,
+				F82262BE15CB01F700DCFBB1 /* SGViewController.xib */,
+				F82262C115CB0E7100DCFBB1 /* SGGridCell.h */,
+				F82262C215CB0E7100DCFBB1 /* SGGridCell.m */,
+				F82262C415CB0EA400DCFBB1 /* SGGridCell.xib */,
+				F839760115CAEE7F00A61648 /* Supporting Files */,
+			);
+			path = StrategyGame;
+			sourceTree = "<group>";
+		};
+		F839760115CAEE7F00A61648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F839760215CAEE7F00A61648 /* StrategyGame-Info.plist */,
+				F839760315CAEE7F00A61648 /* InfoPlist.strings */,
+				F839760615CAEE7F00A61648 /* main.m */,
+				F839760815CAEE7F00A61648 /* StrategyGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F839762115CAEE7F00A61648 /* StrategyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F839762715CAEE7F00A61648 /* StrategyGameTests.h */,
+				F839762815CAEE7F00A61648 /* StrategyGameTests.m */,
+				F839762215CAEE7F00A61648 /* Supporting Files */,
+			);
+			path = StrategyGameTests;
+			sourceTree = "<group>";
+		};
+		F839762215CAEE7F00A61648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F839762315CAEE7F00A61648 /* StrategyGameTests-Info.plist */,
+				F839762415CAEE7F00A61648 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F839763215CAF3C100A61648 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F82262C615CB1A2200DCFBB1 /* GREEiconBlank.png */,
+				F82262C915CB2A6700DCFBB1 /* GREEiconBlank64.png */,
+				F839763315CAF3ED00A61648 /* GREEicon.png */,
+				F82262C815CB2A6700DCFBB1 /* GREEicon64.png */,
+				F839763415CAF3ED00A61648 /* GREEiconPurple.png */,
+				F82262CA15CB2A6700DCFBB1 /* GREEiconPurple64.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83975F515CAEE7F00A61648 /* StrategyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F839762C15CAEE7F00A61648 /* Build configuration list for PBXNativeTarget "StrategyGame" */;
+			buildPhases = (
+				F83975F215CAEE7F00A61648 /* Sources */,
+				F83975F315CAEE7F00A61648 /* Frameworks */,
+				F83975F415CAEE7F00A61648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrategyGame;
+			productName = StrategyGame;
+			productReference = F83975F615CAEE7F00A61648 /* StrategyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F839761915CAEE7F00A61648 /* StrategyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F839762F15CAEE7F00A61648 /* Build configuration list for PBXNativeTarget "StrategyGameTests" */;
+			buildPhases = (
+				F839761515CAEE7F00A61648 /* Sources */,
+				F839761615CAEE7F00A61648 /* Frameworks */,
+				F839761715CAEE7F00A61648 /* Resources */,
+				F839761815CAEE7F00A61648 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F839762015CAEE7F00A61648 /* PBXTargetDependency */,
+			);
+			name = StrategyGameTests;
+			productName = StrategyGameTests;
+			productReference = F839761A15CAEE7F00A61648 /* StrategyGameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83975ED15CAEE7F00A61648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F83975F015CAEE7F00A61648 /* Build configuration list for PBXProject "StrategyGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F83975EB15CAEE7F00A61648;
+			productRefGroup = F83975F715CAEE7F00A61648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83975F515CAEE7F00A61648 /* StrategyGame */,
+				F839761915CAEE7F00A61648 /* StrategyGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83975F415CAEE7F00A61648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839760515CAEE7F00A61648 /* InfoPlist.strings in Resources */,
+				F839760E15CAEE7F00A61648 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F839761115CAEE7F00A61648 /* MainStoryboard_iPad.storyboard in Resources */,
+				F839763515CAF3ED00A61648 /* GREEicon.png in Resources */,
+				F839763615CAF3ED00A61648 /* GREEiconPurple.png in Resources */,
+				F82262BF15CB01F700DCFBB1 /* SGViewController.xib in Resources */,
+				F82262C515CB0EA400DCFBB1 /* SGGridCell.xib in Resources */,
+				F82262C715CB1A2200DCFBB1 /* GREEiconBlank.png in Resources */,
+				F82262CB15CB2A6700DCFBB1 /* GREEicon64.png in Resources */,
+				F82262CC15CB2A6700DCFBB1 /* GREEiconBlank64.png in Resources */,
+				F82262CD15CB2A6700DCFBB1 /* GREEiconPurple64.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839761715CAEE7F00A61648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839762615CAEE7F00A61648 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F839761815CAEE7F00A61648 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83975F215CAEE7F00A61648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839760715CAEE7F00A61648 /* main.m in Sources */,
+				F839760B15CAEE7F00A61648 /* SGAppDelegate.m in Sources */,
+				F839761415CAEE7F00A61648 /* SGViewController.m in Sources */,
+				F82262C315CB0E7100DCFBB1 /* SGGridCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839761515CAEE7F00A61648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839762915CAEE7F00A61648 /* StrategyGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F839762015CAEE7F00A61648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83975F515CAEE7F00A61648 /* StrategyGame */;
+			targetProxy = F839761F15CAEE7F00A61648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F839760315CAEE7F00A61648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F839760415CAEE7F00A61648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F839760C15CAEE7F00A61648 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F839760D15CAEE7F00A61648 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F839760F15CAEE7F00A61648 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F839761015CAEE7F00A61648 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F839762415CAEE7F00A61648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F839762515CAEE7F00A61648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F839762A15CAEE7F00A61648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F839762B15CAEE7F00A61648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F839762D15CAEE7F00A61648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyGame/StrategyGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategyGame/StrategyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F839762E15CAEE7F00A61648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyGame/StrategyGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategyGame/StrategyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F839763015CAEE7F00A61648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StrategyGame.app/StrategyGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyGame/StrategyGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategyGameTests/StrategyGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F839763115CAEE7F00A61648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StrategyGame.app/StrategyGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyGame/StrategyGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategyGameTests/StrategyGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83975F015CAEE7F00A61648 /* Build configuration list for PBXProject "StrategyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F839762A15CAEE7F00A61648 /* Debug */,
+				F839762B15CAEE7F00A61648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F839762C15CAEE7F00A61648 /* Build configuration list for PBXNativeTarget "StrategyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F839762D15CAEE7F00A61648 /* Debug */,
+				F839762E15CAEE7F00A61648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F839762F15CAEE7F00A61648 /* Build configuration list for PBXNativeTarget "StrategyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F839763015CAEE7F00A61648 /* Debug */,
+				F839763115CAEE7F00A61648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83975ED15CAEE7F00A61648 /* Project object */;
+}
