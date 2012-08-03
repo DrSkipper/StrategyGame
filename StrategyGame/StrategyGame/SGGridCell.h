@@ -20,6 +20,7 @@ typedef enum team {
 @interface SGGridCell : UIImageView
 {
     UIButton* _button;
+    UIImageView* _powerImage;
 }
 
 @property(nonatomic) CGPoint position;
@@ -27,6 +28,8 @@ typedef enum team {
 @property(nonatomic) bool swapToBlue;
 @property(nonatomic, retain) SGViewController* viewController;
 @property(nonatomic, retain) IBOutlet UIButton* button;
+@property(nonatomic) bool poweredUp;
+@property(nonatomic, retain) IBOutlet UIImageView* powerImage;
 
 - (IBAction)buttonPressed:(id)sender;
 - (void)gotPressed;

@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#include <stdlib.h>
 #import "SGViewController.h"
 
 
@@ -15,6 +16,12 @@
 
 @synthesize player_1_score;
 @synthesize player_2_score;
+@synthesize score1;
+@synthesize score2;
+
+@synthesize neutralCells;
+@synthesize selectedCell;
+@synthesize randoSwapCounter;
 
 @synthesize ballVelocity;
 @synthesize gameState;
@@ -47,6 +54,10 @@
 	
     gridCells = nil;
     gameState = kGameStateBlueTurn;
+    selectedCell = nil;
+    randoSwapCounter = 0;
+    self.score1 = 0;
+    self.score2 = 0;
     [self initializeCells:kBoardSize];
     ballVelocity = CGPointMake(kBallSpeedX, kBallSpeedY);
 //    [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(gameLoop) userInfo:nil repeats:YES];
@@ -96,6 +107,7 @@
 {
     //[gridCells release];
     gridCells = [[NSMutableArray alloc]init];
+    self.neutralCells = [[NSMutableArray alloc] init];
     
     float xInterval = grid.frame.size.width / numRowsAndColumns;
     float yInterval = grid.frame.size.height / numRowsAndColumns;
@@ -148,6 +160,7 @@
             {
                 cell.team = NONE;
                 cell.image = [UIImage imageNamed: @"GREEiconBlank64.png"];
+                [self.neutralCells addObject:[cell retain]];
             }
             
             //self.grid.backgroundColor = [UIColor redColor];
@@ -374,25 +387,65 @@
         {
             if (cell.swapToBlue)
             {
+                if (cell.team != NONE)
+                    score1 += 1;
+                else
+                    [self.neutralCells removeObject:cell];
                 cell.team = BLUE;
                 cell.image = [UIImage imageNamed: @"GREEicon64.png"];
+                if (cell.poweredUp)
+                {
+                    cell.poweredUp = false;
+                    cell.powerImage.hidden = YES;
+                    score1 += 3;
+                }
             }
             else
             {
+                if (cell.team != NONE)
+                    score2 += 1;
+                else
+                    [self.neutralCells removeObject:cell];
                 cell.team = PINK;
                 cell.image = [UIImage imageNamed: @"GREEiconPurple64.png"];
+                if (cell.poweredUp)
+                {
+                    cell.poweredUp = false;
+                    cell.powerImage.hidden = YES;
+                    score2 += 3;
+                }
             }
         }
         [self detectChanges];
     }
     [changedCells release];
+    
+    player_1_score.text = [NSString stringWithFormat:@"%d", self.score1];
+    player_2_score.text = [NSString stringWithFormat:@"%d", self.score2];
 }
 
 
 // Detect whether end game conditions have been reached
-- (void)detectEndGame
+- (bool)detectEndGame
 {
+    return false;
+}
+
+
+// Rando Swap Feature
+- (void)randoSwap
+{
+    SGGridCell* randoCell = nil;
+    while (randoCell == nil || randoCell.team == INVALID || randoCell.team == NONE || randoCell == selectedCell)
+    {
+        int r = arc4random() % kBoardSize;
+        int c = arc4random() % kBoardSize;
+        randoCell = [[gridCells objectAtIndex:r] objectAtIndex:c];
+    }
     
+    randoCell.team = NONE;
+    randoCell.image = [UIImage imageNamed: @"GREEiconBlank64.png"];
+    [self.neutralCells addObject:[randoCell retain]];
 }
 
 

@@ -35,12 +35,19 @@
 
 @property(nonatomic, retain) IBOutlet UILabel *player_1_score;
 @property(nonatomic, retain) IBOutlet UILabel *player_2_score;
+@property(nonatomic) NSInteger score1;
+@property(nonatomic) NSInteger score2;
+
+@property(nonatomic, retain) NSMutableArray* neutralCells;
+@property(nonatomic, retain) SGGridCell* selectedCell;
+@property(nonatomic) NSInteger randoSwapCounter;
 
 @property(nonatomic) CGPoint ballVelocity;
 @property(nonatomic) NSInteger gameState;
 
 - (void)detectChanges;
-- (void)detectEndGame;
+- (bool)detectEndGame;
+- (void)randoSwap;
 - (NSMutableSet*)getNeighbors:(SGGridCell*)cell;
 
 @end
